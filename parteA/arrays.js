@@ -53,4 +53,5 @@ console.log(retornaDog);
 const somaIdadeDogs = retornaDog
   .map((pet) => parseInt(pet.age))
   .reduce((acc, cur) => acc + cur);
+
 console.log(somaIdadeDogs);
